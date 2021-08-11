@@ -1,7 +1,7 @@
 {
-  "name": "Alternative Fuel and Charging Station in Toronto",
-  "description": "Location map for vehicles requiring alternative fuel or a charging station in the City of Toronto",
-  "createdTime": 1628688946231,
-  "lastUpdated": 1628689219783,
+  "name": "POI City of Toronto",
+  "description": "POI in the City of Toronto (Malls, monuments, parks, museums)",
+  "createdTime": 1627329075731,
+  "lastUpdated": 1627329171619,
   "creator": "emiliebreuvart_mohawkarcgis"
 }
