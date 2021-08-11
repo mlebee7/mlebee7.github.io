@@ -21,7 +21,7 @@
   "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "POI City of Toronto",
+  "title": "Alternative Fuel and Charging Station in Toronto",
   "subtitle": "with ArcGIS Web AppBuilder",
   "keepAppState": true,
   "logo": "images/app-logo.png",
@@ -59,7 +59,6 @@
       },
       {
         "uri": "widgets/Scalebar/Widget",
-        "visible": false,
         "position": {
           "left": 10,
           "bottom": 1,
@@ -68,7 +67,8 @@
         },
         "version": "2.21",
         "id": "widgets_Scalebar_Widget_26",
-        "name": "Scalebar"
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_26.json"
       },
       {
         "uri": "widgets/Coordinate/Widget",
@@ -85,13 +85,13 @@
       },
       {
         "uri": "widgets/AttributeTable/Widget",
-        "visible": false,
         "version": "2.21",
         "position": {
           "relativeTo": "browser"
         },
         "id": "widgets_AttributeTable_Widget_28",
-        "name": "AttributeTable"
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_28.json"
       },
       {
         "uri": "widgets/Splash/Widget",
@@ -101,7 +101,8 @@
         },
         "version": "2.21",
         "id": "widgets_Splash_Widget_29",
-        "name": "Splash"
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_29.json"
       }
     ],
     "panel": {
@@ -120,7 +121,7 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "57598e064080473faa9cd70547d662cb",
+    "itemId": "cc55ca5ae028442fb35d239a56aeb0b2",
     "mapOptions": {},
     "id": "map",
     "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
@@ -141,55 +142,41 @@
         "version": "2.21",
         "id": "widgets_LayerList_Widget_17",
         "name": "LayerList",
-        "index": 0
+        "index": 2
       },
       {
         "uri": "widgets/Legend/Widget",
         "version": "2.21",
         "id": "widgets_Legend_Widget_16",
         "name": "Legend",
-        "index": 1
+        "index": 3
       },
       {
         "version": "2.21",
         "uri": "widgets/BasemapGallery/Widget",
         "id": "widgets_BasemapGallery_Widget_21",
         "name": "BasemapGallery",
-        "index": 2
-      },
-      {
-        "version": "2.21",
-        "uri": "widgets/Bookmark/Widget",
-        "id": "widgets_Bookmark_Widget_19",
-        "name": "Bookmark",
-        "index": 3
+        "index": 4
       },
       {
         "version": "2.21",
         "uri": "widgets/Measurement/Widget",
         "id": "widgets_Measurement_Widget_22",
         "name": "Measurement",
-        "index": 4
+        "index": 5
       },
       {
         "version": "2.21",
         "uri": "widgets/Draw/Widget",
         "id": "widgets_Draw_Widget_23",
         "name": "Draw",
-        "index": 5
+        "index": 6
       },
       {
         "version": "2.21",
         "uri": "widgets/Print/Widget",
         "id": "widgets_Print_Widget_20",
         "name": "Print",
-        "index": 6
-      },
-      {
-        "version": "2.21",
-        "uri": "widgets/About/Widget",
-        "id": "widgets_About_Widget_18",
-        "name": "About",
         "index": 7
       },
       {
@@ -232,6 +219,14 @@
         },
         "name": "MyLocation",
         "index": 11
+      },
+      {
+        "name": "Directions",
+        "version": "2.21",
+        "uri": "widgets/Directions/Widget",
+        "config": "configs/Directions/config_widgets_Directions_Widget_34.json",
+        "index": 12,
+        "id": "widgets_Directions_Widget_34"
       }
     ],
     "groups": []
